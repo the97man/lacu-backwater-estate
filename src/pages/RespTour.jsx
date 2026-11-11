@@ -26,7 +26,7 @@ export default function RespTour() {
           </span>
 
           <h2 className="mt-3 font-serif text-3xl font-normal text-[#283b32] sm:text-4xl">
-            Experiences & Moments
+            Tourism at a glance
           </h2>
         </div>
 
