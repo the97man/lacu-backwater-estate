@@ -21,8 +21,9 @@ export default function People() {
           <span className="eyebrow">INTRODUCTION</span>
 
           <p>
-            Add your introductory paragraph here. Describe the people,
-            relationships and stories that make LAKŌ special.
+            At LAKŌ, it is the people who bring the spirit of this place to
+            life. Through their warmth, dedication and stories, they make every
+            stay feel personal and every moment memorable.
           </p>
         </div>
       </section>
