@@ -77,6 +77,11 @@ export default function Header() {
             Tourism
           </NavLink>
 
+          {/* Experiences */}
+          <NavLink to="/experiences" onClick={close}>
+            Experiences
+          </NavLink>
+
           {/* Enquire */}
           <Link to="/booking" className="nav-cta" onClick={close}>
             Enquire <ArrowUpRight size={15} />

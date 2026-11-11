@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Villas from "./pages/Villas";
 import RespTour from "./pages/RespTour";
+import Experiences from "./pages/Experiences";
 import Story from "./pages/Story";
 import Booking from "./pages/Booking";
 import People from "./pages/People";
@@ -35,6 +36,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/villas" element={<Villas />} />
+          <Route path="/experiences" element={<Experiences />} />
 
           {/* Tourism */}
           <Route path="/resptour" element={<RespTour />} />

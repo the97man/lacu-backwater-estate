@@ -2,9 +2,9 @@ import { ArrowUpRight, Clock3, Compass } from "lucide-react";
 import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero";
 import SectionHeading from "../components/SectionHeading";
-import { RespTour, images } from "../data/siteData";
+import { images, experiences } from "../data/siteData";
 
-export default function RespTour() {
+export default function Experiences() {
   return (
     <>
       <PageHero
@@ -19,6 +19,7 @@ export default function RespTour() {
         description="Every day offers a different way to meet this place — from the quiet channels to the village lanes and hills beyond."
         image={images.canoe}
       />
+
       <section className="page-intro section-pad">
         <div className="narrow-copy">
           <span className="eyebrow">SPORT & SLOW LIVING</span>
@@ -34,21 +35,27 @@ export default function RespTour() {
           </p>
         </div>
       </section>
+
       <section className="experience-cards-section section-pad">
         <div className="wrap-wide experience-cards">
-          {RespTour.map((item, index) => (
+          {experiences.map((item, index) => (
             <article
-              className={`experience-card ${index % 2 ? "experience-card-reverse" : ""}`}
+              className={`experience-card ${
+                index % 2 ? "experience-card-reverse" : ""
+              }`}
               key={item.name}
             >
               <div className="experience-card-image">
                 <img src={item.image} alt={item.name} loading="lazy" />
                 <span>0{index + 1}</span>
               </div>
+
               <div className="experience-card-copy">
                 <span className="eyebrow">EXPERIENCE 0{index + 1}</span>
+
                 <h2>{item.name}</h2>
                 <p>{item.description}</p>
+
                 <div className="experience-tags">
                   <span>
                     <Clock3 size={15} /> {item.duration}
@@ -57,6 +64,7 @@ export default function RespTour() {
                     <Compass size={15} /> {item.tag}
                   </span>
                 </div>
+
                 <Link to="/booking" className="text-link">
                   Add to your stay <ArrowUpRight size={16} />
                 </Link>
@@ -65,6 +73,7 @@ export default function RespTour() {
           ))}
         </div>
       </section>
+
       <section className="beyond-section section-pad">
         <div className="wrap-wide beyond-grid">
           <div>
@@ -80,6 +89,7 @@ export default function RespTour() {
               description="A few more ways to spend a day here, arranged with the same local hosts and guides."
             />
           </div>
+
           <div className="beyond-list">
             <div>
               <span>05</span>
@@ -89,6 +99,7 @@ export default function RespTour() {
                 system.
               </p>
             </div>
+
             <div>
               <span>06</span>
               <h3>Village cooking session</h3>
@@ -97,6 +108,7 @@ export default function RespTour() {
                 them.
               </p>
             </div>
+
             <div>
               <span>07</span>
               <h3>Seasonal days</h3>
@@ -108,6 +120,7 @@ export default function RespTour() {
           </div>
         </div>
       </section>
+
       <section
         className="experience-cta"
         style={{

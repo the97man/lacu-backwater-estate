@@ -5,25 +5,49 @@ import heritage from "../images/resptour/heritage.avif";
 import community from "../images/resptour/community.avif";
 import artculture from "../images/resptour/artculture.avif";
 
+import fort from "../images/resptour/ethos/fort.jpg";
+import folly from "../images/resptour/ethos/folly.webp";
+import church from "../images/resptour/ethos/church.jpg";
+import mosque from "../images/resptour/ethos/mosque.jpg";
+import temple from "../images/resptour/ethos/temple.jpg";
+
 export const images = {
   hero: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=2200&q=88",
-  lake: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=85",
-  villa:
-    "https://images.unsplash.com/photo-1688653802629-5360086bf632?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-  room: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85",
-  pool: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1400&q=85",
-  canoe:
-    "https://plus.unsplash.com/premium_photo-1661952057994-22fb8dd3a590?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-  fishing:
-    "https://static2.tripoto.com/media/filter/nl/img/461838/TripDocument/1513691086_angler_1585035_1280.jpg.webp",
-  cycling:
-    "https://images.unsplash.com/photo-1675254582903-47ae31537986?q=80&w=1261&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-  hills:
-    "https://images.unsplash.com/photo-1627894485200-b92fb4353967?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-  food: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85",
-  village:
-    "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1400&q=85",
 };
+export const experiences = [
+  {
+    name: "Canoe Through the Backwaters",
+    description:
+      "Drift through quiet canals, shaded waterways and the peaceful landscapes of Vembanad Lake in a traditional canoe.",
+    image: images.canoe,
+    duration: "2–3 hours",
+    tag: "On the water",
+  },
+  {
+    name: "A Morning of Fishing",
+    description:
+      "Experience traditional fishing practices alongside local fishermen who know these waters best.",
+    image: images.fishing,
+    duration: "1–2 hours",
+    tag: "Local tradition",
+  },
+  {
+    name: "Explore by Bicycle",
+    description:
+      "Follow quiet village roads, pass coconut groves and discover the slower rhythms of everyday life around the estate.",
+    image: images.cycling,
+    duration: "2 hours",
+    tag: "On land",
+  },
+  {
+    name: "Discover the Hills",
+    description:
+      "Explore the beautiful landscapes, greenery and natural surroundings of Kerala.",
+    image: images.hills,
+    duration: "Half day",
+    tag: "Nature",
+  },
+];
 
 export const villas = [
   {
@@ -65,4 +89,12 @@ export const respTour = {
   heritage,
   community,
   artculture,
+};
+
+export const localethos = {
+  fort,
+  folly,
+  church,
+  mosque,
+  temple,
 };
