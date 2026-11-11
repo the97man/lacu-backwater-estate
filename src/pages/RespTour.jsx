@@ -22,7 +22,7 @@ const galleryImages = [
     label: "Cuisine",
     description:
       "Savour the flavours of Kerala, inspired by local ingredients and traditions.",
-    image: respTour.cuisine,
+    image: respTour.kerelacuisine,
     path: "/cuisine",
   },
   {

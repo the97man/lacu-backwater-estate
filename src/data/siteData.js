@@ -1,6 +1,6 @@
 import people from "../images/resptour/people.webp";
 import ethos from "../images/resptour/ethos.webp";
-import cuisine from "../images/resptour/cuisine.avif";
+import kerelacuisine from "../images/resptour/abhik-paul-Lsiv0oAIfFk-unsplash.jpg";
 import heritage from "../images/resptour/heritage.avif";
 import community from "../images/resptour/community.avif";
 import artculture from "../images/resptour/artculture.avif";
@@ -10,6 +10,12 @@ import folly from "../images/resptour/ethos/folly.webp";
 import church from "../images/resptour/ethos/church.jpg";
 import mosque from "../images/resptour/ethos/mosque.jpg";
 import temple from "../images/resptour/ethos/temple.jpg";
+
+import spices from "../images/resptour/cuisine/spices.jpg";
+import fish from "../images/resptour/cuisine/fish.jpg";
+import tea from "../images/resptour/cuisine/tea.jpg";
+import market from "../images/resptour/cuisine/market.jpg";
+import jetty from "../images/resptour/cuisine/jetty.jpg";
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=2200&q=88",
@@ -85,7 +91,7 @@ export const villas = [
 export const respTour = {
   people,
   ethos,
-  cuisine,
+  kerelacuisine,
   heritage,
   community,
   artculture,
@@ -97,4 +103,12 @@ export const localethos = {
   church,
   mosque,
   temple,
+};
+
+export const cuisine = {
+  spices,
+  fish,
+  tea,
+  market,
+  jetty,
 };
