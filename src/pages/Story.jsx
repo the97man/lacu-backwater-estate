@@ -64,7 +64,7 @@ export default function Story() {
       <section className="responsibility-story section-pad">
         <div className="wrap-wide">
           <SectionHeading
-            eyebrow="RESPONSIBLE TOURISM"
+            eyebrow="TOURISM"
             title={
               <>
                 We moved in beside the village.

@@ -72,9 +72,9 @@ export default function Header() {
             The Villas
           </Link>
 
-          {/* Responsible Tourism */}
+          {/* Tourism */}
           <NavLink to="/RespTour" onClick={close}>
-            Responsible Tourism
+            Tourism
           </NavLink>
 
           {/* Enquire */}

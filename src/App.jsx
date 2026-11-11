@@ -36,7 +36,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/villas" element={<Villas />} />
 
-          {/* Responsible Tourism */}
+          {/* Tourism */}
           <Route path="/resptour" element={<RespTour />} />
           <Route path="/people" element={<People />} />
           <Route path="/local-ethos" element={<LocalEthos />} />
