@@ -2,14 +2,50 @@ import { Link } from "react-router-dom";
 import { respTour } from "../data/siteData";
 
 const galleryImages = [
-  { id: 1, label: "People", image: respTour.people, path: "/people" },
-  { id: 2, label: "Local Ethos", image: respTour.ethos, path: "/local-ethos" },
-  { id: 3, label: "Cuisine", image: respTour.cuisine, path: "/cuisine" },
-  { id: 4, label: "Heritage", image: respTour.heritage, path: "/heritage" },
-  { id: 5, label: "Community", image: respTour.community, path: "/community" },
+  {
+    id: 1,
+    label: "People",
+    description: "Meet the people whose warmth and stories bring LAKŌ to life.",
+    image: respTour.people,
+    path: "/people",
+  },
+  {
+    id: 2,
+    label: "Local Ethos",
+    description:
+      "Discover our connection to nature and a more thoughtful way of living.",
+    image: respTour.ethos,
+    path: "/local-ethos",
+  },
+  {
+    id: 3,
+    label: "Cuisine",
+    description:
+      "Savour the flavours of Kerala, inspired by local ingredients and traditions.",
+    image: respTour.cuisine,
+    path: "/cuisine",
+  },
+  {
+    id: 4,
+    label: "Heritage",
+    description:
+      "Explore the history, traditions and stories that shape Kerala.",
+    image: respTour.heritage,
+    path: "/heritage",
+  },
+  {
+    id: 5,
+    label: "Community",
+    description:
+      "Celebrate the local people, shared experiences and bonds that make us belong.",
+    image: respTour.community,
+    path: "/community",
+  },
   {
     id: 6,
     label: "Art & Culture",
+    description:
+      "Experience the vibrant art, crafts and cultural traditions of Kerala.",
     image: respTour.artculture,
     path: "/art-culture",
   },
@@ -59,6 +95,10 @@ export default function RespTour() {
               <div className="absolute bottom-0 left-0 p-6 sm:p-7">
                 <h3 className="font-serif text-2xl font-normal text-white sm:text-3xl">
                   {item.label}
+                </h3>
+
+                <h3 className="font-serif text-lg font-normal text-white sm:text-lg">
+                  {item.description}
                 </h3>
 
                 <span className="mt-2 block h-px w-0 bg-white transition-all duration-500 group-hover:w-full" />
