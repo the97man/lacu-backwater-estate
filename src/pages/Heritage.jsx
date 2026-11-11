@@ -1,36 +1,42 @@
 import CategoryPage from "../components/CategoryPage";
-import { respTour } from "../data/siteData";
+import { heritage } from "../data/siteData";
 
 const sections = [
   {
-    title: "Stories of the Past",
+    title: "St. Francis Church, Fort Kochi",
     description:
-      "Kerala's history is woven into its landscapes, architecture and everyday traditions. Discover the stories that have shaped this remarkable region and continue to influence its identity.",
-    image: respTour.heritage,
+      "Built in 1503, St. Francis Church is the oldest European-built church in India. Vasco da Gama was buried here before his remains were later moved to Lisbon — a small church that sat at the centre of Europe’s first foothold on the Malabar coast.",
+    image: heritage.francis,
   },
   {
-    title: "A Land of Many Influences",
+    title: "Paradesi Synagogue & Jew Town, Mattancherry",
     description:
-      "For centuries, Kerala has welcomed traders, travellers and cultures from across the world. These encounters have contributed to its distinctive architecture, traditions and way of life.",
-    image: respTour.heritage,
+      "The oldest active synagogue in the Commonwealth, built in 1568 by Kochi’s Jewish trading community. Jew Town’s narrow lanes around it still carry the spice-trade character that first brought the community here four centuries ago.",
+    image: heritage.synagogue,
   },
   {
-    title: "Architecture with a Story",
+    title: "Mattancherry Palace (Dutch Palace)",
     description:
-      "Traditional Kerala architecture reflects a close relationship with climate, materials and the natural environment. Its distinctive forms and craftsmanship remain an important part of the region's heritage.",
-    image: respTour.heritage,
+      "Built by the Portuguese and later renovated by the Dutch, this palace once housed the Kings of Kochi. Its walls carry some of Kerala’s finest surviving mural paintings, depicting scenes from the Ramayana in the state’s distinct temple-art style.",
+    image: heritage.palace,
   },
   {
-    title: "Traditions Passed Through Generations",
+    title: "Santa Cruz Basilica, Fort Kochi",
     description:
-      "From everyday customs to celebrated festivals, Kerala's traditions carry the knowledge and memories of generations. They remain an important connection between the past and present.",
-    image: respTour.heritage,
+      "Raised to a basilica by Pope John Paul II, Santa Cruz traces its roots to 1505 under Portuguese rule. Its soft pastel interior and painted ceiling are one of Fort Kochi’s quietest, least-crowded heritage stops.",
+    image: heritage.basilica,
   },
   {
-    title: "Discover the Heritage of Kerala",
+    title: "Chellanam’s Fishing-Community Churches",
     description:
-      "Explore the places, stories and cultural landmarks that make this region unique. Every journey offers another perspective on Kerala's fascinating history and enduring character.",
-    image: respTour.heritage,
+      "Chellanam’s own churches anchor a fishing community with deep Syrian Christian roots. Feast days bring the whole village to the shore in procession — heritage that belongs to the people who live here, not to a monument.",
+    image: heritage.fishing,
+  },
+  {
+    title: "Bolgatty Palace",
+    description:
+      "Built in 1744, Bolgatty is the oldest Dutch palace outside the Netherlands, later used as the British Residency. Set on its own island in the backwaters, it’s a short boat ride from Fort Kochi and a glimpse of the colonial era that shaped this coast.",
+    image: heritage.bolgatty,
   },
 ];
 

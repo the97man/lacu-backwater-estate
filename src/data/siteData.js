@@ -1,7 +1,7 @@
 import people from "../images/resptour/people.webp";
 import ethos from "../images/resptour/ethos.webp";
 import kerelacuisine from "../images/resptour/abhik-paul-Lsiv0oAIfFk-unsplash.jpg";
-import heritage from "../images/resptour/heritage.avif";
+import keralaheritage from "../images/resptour/heritage.avif";
 import community from "../images/resptour/community.avif";
 import artculture from "../images/resptour/artculture.avif";
 
@@ -17,9 +17,20 @@ import tea from "../images/resptour/cuisine/tea.jpg";
 import market from "../images/resptour/cuisine/market.jpg";
 import jetty from "../images/resptour/cuisine/jetty.jpg";
 
+import francis from "../images/resptour/heritage/francis.png";
+import synagogue from "../images/resptour/heritage/synagogue.png";
+import palace from "../images/resptour/heritage/palace.png";
+import basilica from "../images/resptour/heritage/basilica.png";
+import fishing from "../images/resptour/heritage/fishing.png";
+import bolgatty from "../images/resptour/heritage/bolgatty.png";
+
+import ethoshero from "../images/resptour/ethos/hero.jpg";
+import cuisinehero from "../images/resptour/cuisine/hero.jpg";
+
 export const images = {
   hero: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=2200&q=88",
 };
+
 export const experiences = [
   {
     name: "Canoe Through the Backwaters",
@@ -92,12 +103,13 @@ export const respTour = {
   people,
   ethos,
   kerelacuisine,
-  heritage,
+  keralaheritage,
   community,
   artculture,
 };
 
 export const localethos = {
+  ethoshero,
   fort,
   folly,
   church,
@@ -106,9 +118,19 @@ export const localethos = {
 };
 
 export const cuisine = {
+  cuisinehero,
   spices,
   fish,
   tea,
   market,
   jetty,
+};
+
+export const heritage = {
+  francis,
+  synagogue,
+  palace,
+  basilica,
+  fishing,
+  bolgatty,
 };

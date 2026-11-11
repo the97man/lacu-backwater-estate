@@ -4,14 +4,6 @@ import { Link } from "react-router-dom";
 export default function CategoryPage({ introduction, sections = [] }) {
   return (
     <>
-      {/* INTRODUCTION */}
-      <section className="page-intro section-pad">
-        <div className="narrow-copy">
-          <span className="eyebrow">INTRODUCTION</span>
-          <p>{introduction}</p>
-        </div>
-      </section>
-
       {/* CONTENT SECTIONS */}
       <section className="experience-cards-section section-pad">
         <div className="wrap-wide experience-cards">

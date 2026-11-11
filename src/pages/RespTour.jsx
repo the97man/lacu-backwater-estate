@@ -30,7 +30,7 @@ const galleryImages = [
     label: "Heritage",
     description:
       "Explore the history, traditions and stories that shape Kerala.",
-    image: respTour.heritage,
+    image: respTour.keralaheritage,
     path: "/heritage",
   },
   {

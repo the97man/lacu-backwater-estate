@@ -36,9 +36,27 @@ const sections = [
 
 export default function LocalEthos() {
   return (
-    <CategoryPage
-      introduction="Our ethos is shaped by the land, water and people around us. At LAKŌ, we believe in thoughtful hospitality, meaningful connections and living in harmony with the natural beauty of Kerala."
-      sections={sections}
-    />
+    <>
+      <section
+        className="relative flex min-h-[50vh] w-full items-center justify-center overflow-hidden bg-cover bg-center px-6 py-20 md:min-h-[55vh] lg:min-h-[60vh]"
+        style={{
+          backgroundImage: `linear-gradient(90deg, rgba(24,35,29,.62), rgba(24,35,29,.12) 72%), linear-gradient(0deg, rgba(24,35,29,.35), rgba(24,35,29,.15)), url(${localethos.ethoshero})`,
+        }}
+      >
+        <div className="relative z-10 mx-auto w-full max-w-4xl text-center">
+          <h2 className="mb-8 block text-lg font-medium uppercase tracking-[0.3em] text-white/80">
+            Our ethos is shaped by the land, water and people around us. At
+            LAKŌ, we believe in thoughtful hospitality, meaningful connections
+            and living in harmony with the natural beauty of Kerala.
+          </h2>
+        </div>
+      </section>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <CategoryPage sections={sections} />
+    </>
   );
 }
