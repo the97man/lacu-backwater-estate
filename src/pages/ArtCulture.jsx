@@ -1,36 +1,41 @@
 import CategoryPage from "../components/CategoryPage";
-import { respTour } from "../data/siteData";
+import { artculture } from "../data/siteData";
 
 const sections = [
   {
-    title: "An Expression of Kerala",
+    title:
+      "Enjoy summer temple festivals, scenic village walks, and artisan crafts.",
     description:
-      "Kerala's artistic identity is expressed through its colours, performances, craftsmanship and traditions. Discover the creative spirit that makes the region culturally distinctive.",
-    image: respTour.artculture,
+      "Come summer around March April the village comes to life for the annual temple festival. Village walks by the river, across the fields and along the small meandering bylanes are unforgettable joys. You can also indulge in fishing, pottery making or interaction with artisans as part of your village experience.",
+    image: artculture.festival,
   },
   {
-    title: "The Rhythm of Tradition",
+    title:
+      "Explore Guruvayur’s historic Sree Krishna Temple, a popular pilgrimage site.",
     description:
-      "Traditional music and dance are an important part of Kerala's cultural identity. Their expressive movements, distinctive rhythms and elaborate performances tell stories that have endured for generations.",
-    image: respTour.artculture,
+      "Guruvayur is home to the historic Sree Krishna Temple, called the Dwaraka of the South. It is among the most revered and popular pilgrimage destinations in Kerala and the entire country. The central shrine is believed to have been rebuilt in 1638 C.E. Only Hindus are allowed inside the Temple with proper dress code, one can experience the Temple harmony along with the occasional cultural performances near at the open Theatre.",
+    image: artculture.temple,
   },
   {
-    title: "Crafted by Hand",
+    title:
+      "Experience traditional Kathakali dance drama at Greenix Village Cultural Center.",
     description:
-      "Local artisans preserve remarkable skills through textiles, woodwork, traditional objects and decorative crafts. Their work reflects patience, creativity and a deep connection to cultural heritage.",
-    image: respTour.artculture,
+      "Enjoy a cultural evening at Greenix Village Cultural Center and discover the famous dance drama of Kerala, the “Kathakali” show. This dance can be characterized by grotesque gesticulations, amazing costumes and very extensive make-up. The stories are mostly taken from the epics Mahabharatha and Ramayana",
+    image: artculture.dance,
   },
   {
-    title: "Festivals and Celebrations",
+    title:
+      "Explore Trivandrum’s vibrant, 18th-century Chalai market, named after Chaliya traders.",
     description:
-      "Kerala's festivals bring communities together through music, colour, rituals and shared celebrations. They offer a glimpse into the traditions and beliefs that continue to shape local life.",
-    image: respTour.artculture,
+      "This evening, explore the Chalai market. The Diwan of Travancore “Raja” Kesava Das established this ever-vibrant market during the closing years of the 18th century. The name ‘Chalai’ originated from the community of traders, the chaliyas as they started to influence the cultural and linguistic tradition of the city",
+    image: artculture.trader,
   },
   {
-    title: "Keeping Culture Alive",
+    title:
+      "Experience Ottappalam’s cultural festivals and Kannur’s pristine beaches and rituals.",
     description:
-      "Culture remains meaningful when it is experienced, celebrated and passed on. We value the artists, performers and craftspeople who continue to preserve Kerala's creative traditions.",
-    image: respTour.artculture,
+      "Experience the rural traditions in Ottappalam, a cultural hub known for its festivals and heritage homes. Head to Kannur, where long, pristine beaches and centuries-old rituals offer a unique insight into the region's traditions",
+    image: artculture.beach,
   },
 ];
 

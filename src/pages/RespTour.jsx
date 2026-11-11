@@ -38,7 +38,7 @@ const galleryImages = [
     label: "Community",
     description:
       "Celebrate the local people, shared experiences and bonds that make us belong.",
-    image: respTour.community,
+    image: respTour.keralacommunity,
     path: "/community",
   },
   {
@@ -46,7 +46,7 @@ const galleryImages = [
     label: "Art & Culture",
     description:
       "Experience the vibrant art, crafts and cultural traditions of Kerala.",
-    image: respTour.artculture,
+    image: respTour.keralaartculture,
     path: "/art-culture",
   },
 ];

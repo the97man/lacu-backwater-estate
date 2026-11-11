@@ -2,14 +2,14 @@ import people from "../images/resptour/people.webp";
 import ethos from "../images/resptour/ethos.webp";
 import kerelacuisine from "../images/resptour/abhik-paul-Lsiv0oAIfFk-unsplash.jpg";
 import keralaheritage from "../images/resptour/heritage.avif";
-import community from "../images/resptour/community.avif";
-import artculture from "../images/resptour/artculture.avif";
+import keralacommunity from "../images/resptour/community.avif";
+import keralaartculture from "../images/resptour/artculture.avif";
 
 import fort from "../images/resptour/ethos/fort.jpg";
 import folly from "../images/resptour/ethos/folly.webp";
 import church from "../images/resptour/ethos/church.jpg";
 import mosque from "../images/resptour/ethos/mosque.jpg";
-import temple from "../images/resptour/ethos/temple.jpg";
+import ethostemple from "../images/resptour/ethos/temple.jpg";
 
 import spices from "../images/resptour/cuisine/spices.jpg";
 import fish from "../images/resptour/cuisine/fish.jpg";
@@ -23,6 +23,18 @@ import palace from "../images/resptour/heritage/palace.png";
 import basilica from "../images/resptour/heritage/basilica.png";
 import fishing from "../images/resptour/heritage/fishing.png";
 import bolgatty from "../images/resptour/heritage/bolgatty.png";
+
+import plantation from "../images/resptour/community/plantation.jpg";
+import backwater from "../images/resptour/community/backwater.jpg";
+import handcraft from "../images/resptour/community/handcraft.jpg";
+import communityfarmer from "../images/resptour/community/farmer.avif";
+import boat from "../images/resptour/community/boat.jpg";
+
+import festival from "../images/resptour/artculture/fesstival.jpg";
+import temple from "../images/resptour/artculture/temple.jpg";
+import dance from "../images/resptour/artculture/dance.png";
+import trader from "../images/resptour/artculture/trader.jpg";
+import beach from "../images/resptour/artculture/beach.jpg";
 
 import ethoshero from "../images/resptour/ethos/hero.jpg";
 import cuisinehero from "../images/resptour/cuisine/hero.jpg";
@@ -104,8 +116,8 @@ export const respTour = {
   ethos,
   kerelacuisine,
   keralaheritage,
-  community,
-  artculture,
+  keralacommunity,
+  keralaartculture,
 };
 
 export const localethos = {
@@ -114,7 +126,7 @@ export const localethos = {
   folly,
   church,
   mosque,
-  temple,
+  ethostemple,
 };
 
 export const cuisine = {
@@ -133,4 +145,20 @@ export const heritage = {
   basilica,
   fishing,
   bolgatty,
+};
+
+export const community = {
+  plantation,
+  backwater,
+  handcraft,
+  communityfarmer,
+  boat,
+};
+
+export const artculture = {
+  festival,
+  temple,
+  dance,
+  trader,
+  beach,
 };

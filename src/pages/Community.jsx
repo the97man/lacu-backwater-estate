@@ -1,36 +1,40 @@
 import CategoryPage from "../components/CategoryPage";
-import { respTour } from "../data/siteData";
+import { community } from "../data/siteData";
 
 const sections = [
   {
-    title: "Connected by Community",
+    title:
+      "Walk through tea plantations, exploring local cultivation and worker life.",
     description:
-      "The spirit of LAKŌ is closely connected to the people who call this region home. Their stories, knowledge and hospitality are an essential part of what makes the backwaters special.",
-    image: respTour.community,
+      "Guests walk through the tea plantations, offering insight into local cultivation practices and the daily lives of plantation workers.",
+    image: community.plantation,
   },
   {
-    title: "Local People, Local Opportunities",
+    title:
+      "Cruise Kerala’s backwaters to experience unique, vibrant daily water-based life.",
     description:
-      "We believe tourism should create meaningful opportunities for the surrounding community. Working with local people allows us to support livelihoods while sharing the region's authentic character with our guests.",
-    image: respTour.community,
+      "Cruise through an enchanting network of canals, lakes, and lagoons, offering an intimate glimpse into Kerala’s unique water-based lifestyle. Observe how daily life unfolds along the backwaters, where residents travel, fish, bathe, and carry out household activities by the water’s edge. Witness locals engaging in conversations while standing waist-deep in the water, reflecting their deep connection to this environment. Local vendors navigate the waterways to supply daily essentials, and even public transport operates on water. summarize in 10 words",
+    image: community.backwater,
   },
   {
-    title: "Celebrating Local Skills",
+    title:
+      "Visit Srishti Welfare Centre to explore handcrafts supporting differently-abled artisans.",
     description:
-      "From traditional craftsmanship to regional knowledge, the community holds skills that deserve recognition. We value the people who keep these practices alive and pass them on to future generations.",
-    image: respTour.community,
+      "Stop at the Srishti Welfare Centre, an initiative by Tata Global Beverages dedicated to the rehabilitation and empowerment of differently abled individuals. Engage with the local community, observe their artisanal practices, and enjoy some time exploring and purchasing handicrafts that support this social initiative",
+    image: community.handcraft,
   },
   {
-    title: "Sharing Everyday Life",
+    title: "Observe local farmers working in the fields during harvest season.",
     description:
-      "Some of the most memorable experiences come from simple everyday moments. We encourage meaningful interactions that allow guests to understand the local way of life beyond the usual tourist experience.",
-    image: respTour.community,
+      "During the harvest season, one finds farmers working in the fields most of the day. The early hours of the day brings to us the sight of women carrying sickles to the fields while men are busy sowing seeds and getting rid of weeds.",
+    image: community.communityfarmer,
   },
   {
-    title: "Growing Together",
+    title:
+      "Experience Kerala’s oldest snake boat regatta during the Onam festival.",
     description:
-      "Our relationship with the community is an ongoing commitment. Through collaboration, respect and shared opportunities, we hope to contribute positively to the place we are fortunate to call home.",
-    image: respTour.community,
+      "The Aranmula Uthrattathi Vallamkali is the oldest river carnival in Kerala. It is held during the festival of Onam (August-September). It takes place at Aranmula, near a Hindu temple dedicated to Lord Krishna and Arjuna. The traditional 'Palliyodams' or snake boats move in groups up and down the river to the rhythm of full-throated singing of traditional songs known as 'Vallappattu'. The regatta is performed as an offering to Sri Parthasarathy and thousands of people gather on the banks of the river Pampa to watch it.",
+    image: community.boat,
   },
 ];
 
